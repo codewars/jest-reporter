@@ -1,7 +1,12 @@
 {
   "name": "@codewars/jest-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Codewars reporter for Jest",
+  "homepage": "https://github.com/codewars/jest-reporter#readme",
+  "repository": "github:codewars/jest-reporter",
+  "bugs": {
+    "url": "https://github.com/codewars/jest-reporter/issues"
+  },
   "files": [
     "lib/",
     "src/"
