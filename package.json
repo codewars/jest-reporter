@@ -1,0 +1,34 @@
+{
+  "name": "@codewars/jest-reporter",
+  "version": "1.0.0",
+  "description": "Codewars reporter for Jest",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/jest-reporter.js",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "anser": "^1.4.9"
+  },
+  "devDependencies": {
+    "@jest/console": "^25.5.0",
+    "@jest/reporters": "^25.5.1",
+    "@jest/test-result": "^25.5.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "jest": "25.x"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
