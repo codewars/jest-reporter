@@ -146,7 +146,7 @@ function _logTest(test: AssertionResult) {
       console.log(`\n<LOG::>Test TODO`);
       break;
   }
-  const time = test.duration ? test.duration.toFixed(0) : "";
+  const time = test.duration ? test.duration.toFixed(0) : "0";
   console.log(`\n<COMPLETEDIN::>${time}`);
 }
 

@@ -1,0 +1,14 @@
+
+<DESCRIBE::>group 1
+
+<IT::>test 1
+
+<FAILED::>Test Failed
+
+<LOG:HTML:Failure><pre class="ansi"><code>Error: expect(received).toBe(expected) // Object.is equality<:LF:><:LF:>Expected: 2<:LF:>Received: 1</code></pre>
+
+<COMPLETEDIN::>3
+
+<COMPLETEDIN::>
+
+<LOG:HTML:Failures><pre class="ansi"><code>● group 1 › test 1<:LF:><:LF:>    expect(received).toBe(expected) // Object.is equality<:LF:><:LF:>    Expected: 2<:LF:>    Received: 1<:LF:><:LF:>      1 | describe("group 1", () =&gt; {<:LF:>      2 |   test("test 1", () =&gt; {<:LF:>    &gt; 3 |     expect(1).toBe(2);<:LF:>        |               ^<:LF:>      4 |   });<:LF:>      5 | });<:LF:>      6 | <:LF:><:LF:>      at Object.&lt;anonymous&gt; (fixtures/single-group-failing.js:3:15)</code></pre>
