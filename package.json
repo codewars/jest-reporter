@@ -11,7 +11,7 @@
     "lib/",
     "src/"
   ],
-  "main": "lib/jest-reporter.js",
+  "main": "lib/codewars-reporter.js",
   "scripts": {
     "prepare": "tsc"
   },
