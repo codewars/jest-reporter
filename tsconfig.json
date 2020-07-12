@@ -9,5 +9,6 @@
     "declaration": false,
     "sourceMap": true,
     "removeComments": true
-  }
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

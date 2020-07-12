@@ -1,6 +1,6 @@
 {
   "name": "@codewars/jest-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Codewars reporter for Jest",
   "homepage": "https://github.com/codewars/jest-reporter#readme",
   "repository": "github:codewars/jest-reporter",
@@ -8,28 +8,36 @@
     "url": "https://github.com/codewars/jest-reporter/issues"
   },
   "files": [
-    "lib/",
-    "src/"
+    "lib/codewars-reporter.js",
+    "src/codewars-reporter.ts"
   ],
   "main": "lib/codewars-reporter.js",
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest"
   },
   "license": "MIT",
   "dependencies": {
     "anser": "^1.4.9"
   },
   "devDependencies": {
-    "@jest/console": "^25.5.0",
-    "@jest/reporters": "^25.5.1",
-    "@jest/test-result": "^25.5.0",
+    "@jest/console": "^26.1.0",
+    "@jest/reporters": "^26.1.0",
+    "@jest/test-result": "^26.1.0",
+    "@types/jest": "^26.0.4",
+    "escape-string-regexp": "^4.0.0",
+    "execa": "^4.0.3",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "jest-cli": "^26.1.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
+    "ts-jest": "^26.1.1",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "jest": "25.x"
+    "jest": ">=25.x"
   },
   "husky": {
     "hooks": {
