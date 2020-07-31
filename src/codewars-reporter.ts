@@ -171,7 +171,8 @@ function _showConsoleOutput(cs: ConsoleBuffer | undefined, rootDir: string) {
     if (/^<(?:LOG|TAB|PROP|OUT|SWAP|TAG):(?:[A-Z]*):(?:[^>]*)>/.test(message)) {
       console.log(message);
     } else {
-      const from = c.origin.replace(rootDir, "").replace(/^\//, "");
+      // LogEntry.origin is a stack trace in Jest 26, use the first line.
+      const from = c.origin.split("\n")[0].trim().replace(rootDir, "");
       console.log(`\n<LOG::console.${c.type} ${from}>${escapeLF(message)}`);
     }
   }

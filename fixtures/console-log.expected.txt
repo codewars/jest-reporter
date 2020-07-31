@@ -1,0 +1,12 @@
+
+<DESCRIBE::>group 1
+
+<IT::>test 1
+
+<PASSED::>Test Passed
+
+<COMPLETEDIN::>2
+
+<COMPLETEDIN::>
+
+<LOG::console.log at add (/fixtures/console-log.js:2:11)>1 1
