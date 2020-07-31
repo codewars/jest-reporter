@@ -1,6 +1,6 @@
 {
   "name": "@codewars/jest-reporter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Codewars reporter for Jest",
   "homepage": "https://github.com/codewars/jest-reporter#readme",
   "repository": "github:codewars/jest-reporter",
